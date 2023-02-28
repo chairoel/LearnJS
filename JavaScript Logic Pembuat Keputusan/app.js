@@ -1,9 +1,7 @@
-let halu = 1 + 1;
+console.log("Sebelum Pembanding");
 
-console.log(halu);
-console.log("Hello World!");
-console.log("Hello World!");
-console.log("Hello World!");
-console.log(1 + 1);
-halu = halu + 5;
-console.log(halu);
+if (1 + 1 === 2) {
+   console.log("Betul bro");
+}
+
+console.log("Setelah Pembanding");
